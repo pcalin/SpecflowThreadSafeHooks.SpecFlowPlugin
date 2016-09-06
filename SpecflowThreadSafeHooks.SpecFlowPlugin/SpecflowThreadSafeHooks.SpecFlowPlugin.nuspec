@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>$id$</id>
+    <version>$version$</version>
+    <title>SpecflowThreadSafeHooks</title>
+    <authors>Calin Pirtea</authors>
+    <owners>Calin Pirtea</owners>
+    <projectUrl>https://github.com/pcalin/SpecflowThreadSafeHooks.SpecFlowPlugin</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Plugin to add FeatureContext parameters to feature hooks for Specflow</description>
+    <releaseNotes>
+      In order to load the plugin in your project you must update specflow config as follows:\n
+    &lt;plugins&gt;
+      &lt;add name="SpecflowThreadSafeHooks" path=".\bin" type="Runtime"/&gt;
+    &lt;/plugins&gt;.</releaseNotes>
+    <copyright>Copyright 2016</copyright>
+    <tags>specflow threadsafe</tags>
+  </metadata>
+</package>
